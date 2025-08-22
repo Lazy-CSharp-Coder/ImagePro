@@ -27,9 +27,16 @@ header {
 .headingskrift {
 
   font-family: "Source Sans 3";
-  
+
 }
 
+.logoandtexthd {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items:center;
+}
 
 .imageprologo {
   width : 100px;
