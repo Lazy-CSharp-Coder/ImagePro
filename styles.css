@@ -63,12 +63,11 @@ header {
 ul {
   display: flex;
   flex-direction: column;
-
   list-style-type: none;
 }
 
 li {
-  display: flex;
+
   align-items: center;
   
 }
@@ -76,7 +75,7 @@ li {
 a{
   font-family: "Source Sans 3";
   color: rgb(220,220,220);
-  align-items: center;
+
 }
 
 .headernav {
