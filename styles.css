@@ -13,6 +13,12 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 0 0 0; /* top right bottom left eks 10 15 15 10 - top/bottom - left/right */
+  background-color: #347e84;
+}
+
+.headerhiof {
+
+  
 }
 
 ul {
