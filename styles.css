@@ -26,13 +26,14 @@ header {
 .imageprologo {
   width : 100px;
 }
-/*
-.menydel {
 
-  list-style-type:
+.menydiv {
+
+  display: flex;
+  flex-direction: row;
+  
 }
 
-*/
 
 ul {
   display: flex;
