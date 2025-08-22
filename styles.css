@@ -16,17 +16,26 @@ header {
   width: 100%;
 }
 
+
 .headerhiof {
 
   width:210px;
-  padding-left: 25px;
-  padding-top: 25px;
-  
+  padding-left:25px;
+  padding-top:25px;
+  padding-bottom:15px;
+ 
 }
 
 .headingskrift {
 
   font-family: "Source Sans 3";
+  color:white;
+  padding-left: 35px;
+
+ 
+  margin:0;
+  
+
 
 }
 
@@ -34,11 +43,13 @@ header {
 
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items:left;
+  padding-bottom: 25px;
 }
 
 .imageprologo {
   width : 100px;
+  padding-left:25px;
 }
 
 .menydiv {
