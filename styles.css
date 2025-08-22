@@ -63,15 +63,14 @@ header {
 ul {
   display: flex;
   flex-direction: column;
-  justify-content: right;
-  gap: 16px;
+
   list-style-type: none;
 }
 
 li {
   display: flex;
   align-items: center;
-  gap: 5px;
+  
 }
 
 .headernav {
