@@ -68,15 +68,16 @@ ul {
 
 li {
   display: flex;
-  align-content: center;
-  align-items: center;
+  padding:5px;
   
 }
 
 a{
   font-family: "Source Sans 3";
   color: rgb(220,220,220);
-
+  display: flex;
+  align-items:center;
+  
 }
 
 .headernav {
