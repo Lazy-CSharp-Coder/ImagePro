@@ -73,6 +73,12 @@ li {
   
 }
 
+a{
+  font-family: "Source Sans 3";
+  color:white;
+  align-items: center;
+}
+
 .headernav {
   display: flex;
   flex-direction: row;
