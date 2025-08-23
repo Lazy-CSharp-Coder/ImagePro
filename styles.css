@@ -59,11 +59,8 @@ header {
   flex-direction: row;
   
 }
-/* End header specifics */
 
-main {
-  flex-grow: 1;
-}
+
 h2 {
    font-size:16;
    font-weight: bold;
@@ -99,6 +96,11 @@ a{
 }
 
 /* MAIN */
+
+main{
+  display: flex;
+  flex-grow: 1;
+}
 
 section {
   height: 100vh;
