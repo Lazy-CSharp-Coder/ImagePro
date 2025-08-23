@@ -59,6 +59,10 @@ header {
   
 }
 
+h2 {
+   font-size:16;
+   font-weight: bold;
+}
 
 ul {
   display: flex;
