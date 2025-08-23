@@ -16,9 +16,9 @@ body {
 header {
  
   display: flex;
+  position: sticky;
   flex-direction: row;
   justify-content: space-between;
-  position: sticky;
   top: 0;
   z-index: 10;
   width: 100%;  
