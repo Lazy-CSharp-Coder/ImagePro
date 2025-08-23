@@ -103,9 +103,9 @@ section {
  */
 }
 
+/* introduksjon.html klasse */
 
-.intro
-{ 
+.intro { 
     display: flex;
     flex-direction: column;
     justify-content:space-between;
@@ -113,6 +113,12 @@ section {
 
 }
 
+.standard {
+   
+   text-align: left;
+   width:75px;
+   
+}
 
 /* FOOTER */
 
