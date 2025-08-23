@@ -100,7 +100,7 @@ section {
 }
 
 p{
-  text-align: left;
+  text-align: justify;
 
 }
 
@@ -108,7 +108,8 @@ p{
 { 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-between;
+    align-items: center;
 
 }
 
