@@ -3,7 +3,7 @@
 /* BODY */
 
 body {
-
+  display: flex;
   height: 100%;
   margin: 0;
   display: flex;
@@ -138,7 +138,7 @@ section {
 /* FOOTER */
 
 footer {
-  /* display: flex;
-  justify-content: center; */
+   display: flex;
+  justify-content: center; 
   text-align: center;
 }
