@@ -31,12 +31,7 @@ header {
   font-family: "Source Sans 3";
   color:white;
   padding-left: 35px;
-
- 
   margin:0;
-  
-
-
 }
 
 .logoandtexthd {
@@ -118,10 +113,13 @@ section {
    
    text-align: justify;
    width:50%;
+   padding:0;
    
 }
-.oldpcimage {
-  width:300px;
+.oldpcimg {
+  width:50%;
+  padding-top:20px;
+  padding-bottom: 20px;
 }
 
 /* FOOTER */
