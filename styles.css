@@ -99,6 +99,20 @@ section {
  */
 }
 
+p{
+  text-align: left;
+
+}
+
+.intro
+{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
 /* FOOTER */
 
 footer {
