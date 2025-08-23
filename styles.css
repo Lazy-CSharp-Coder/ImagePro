@@ -62,6 +62,7 @@ header {
 h2 {
    font-size:16;
    font-weight: bold;
+   text-align: left;
 }
 
 ul {
@@ -115,9 +116,12 @@ section {
 
 .standard {
    
-   text-align: left;
-   width:75px;
+   text-align: justify;
+   width:50%;
    
+}
+.oldpcimage {
+  width:300px;
 }
 
 /* FOOTER */
