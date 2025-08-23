@@ -105,7 +105,7 @@ a{
 main{
  
   flex-grow: 1;
-  background-image: url("Images/bakgrunnImagePro.png");
+  background-image: url("Images/imageProWhiteBackground.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
