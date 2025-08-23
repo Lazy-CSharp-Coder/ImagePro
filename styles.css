@@ -59,7 +59,11 @@ header {
   flex-direction: row;
   
 }
+/* End header specifics */
 
+main {
+  flex-grow: 1;
+}
 h2 {
    font-size:16;
    font-weight: bold;
