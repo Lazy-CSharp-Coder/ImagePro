@@ -194,7 +194,11 @@ section {
 /* FOOTER */
 
 footer {
-   display: flex;
+  display: flex;
   justify-content: center; 
+  font-family: "Source Sans 3";
+  color:white;
   text-align: center;
+  background-color: #347e84;
+  height:100px;
 }
