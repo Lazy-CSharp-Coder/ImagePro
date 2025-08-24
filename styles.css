@@ -47,6 +47,12 @@ header {
   margin:0;
 }
 
+.hero {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .logoandtexthd {
 
   display: flex;
@@ -69,7 +75,11 @@ header {
   
 }
 
-
+h1 {
+  font-size: 35px;
+  align-self: center;
+  
+}
 h2 {
    font-size:16;
    font-weight: bold;
@@ -133,7 +143,7 @@ section {
 
 .infostart
 {
-   font-size: 30px;
+   font-size: 25px;
    font-weight: bolder;
 
 }
@@ -141,7 +151,7 @@ section {
 .infoslutt {
   
   padding-left: 120px;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: normal;
   font-style:normal;
 }
