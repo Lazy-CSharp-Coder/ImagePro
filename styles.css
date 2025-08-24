@@ -116,7 +116,7 @@ main{
 }
 
 section {
-
+ 
   font-family: "Source Sans 3";
   /*
  display: flex; /* display: flex - må være med for at flex skal fungere  
@@ -124,23 +124,32 @@ section {
  */
 }
 
-.headerhiof{
+.hero{
   display: flex;
-
+  flex-direction: column;
+  justify-content: center;
+  
 }
 
 .infostart
 {
    font-size: 20;
    font-weight: bolder;
+
 }
 
 .infoslutt {
+  
+  padding-left: 20px;
   font-size: 20;
   font-weight: normal;
   font-style: italic;
 }
 
+.infosamlet {
+  display: flex;
+  justify-content: center;
+}
 /* introduksjon.html klasse */
 
 .intro { 
