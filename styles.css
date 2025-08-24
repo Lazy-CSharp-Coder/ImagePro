@@ -19,7 +19,7 @@ header {
   flex-direction: row;
   position: sticky;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   top: 0;
   z-index: 10;
   width: 100%;  
