@@ -197,9 +197,15 @@ section {
 footer {
   display: flex;
   justify-content: center; 
+  align-items: center;
   font-family: "Source Sans 3";
   color:white;
   text-align: center;
   background-color: #347e84;
   height:100px;
+}
+
+.kodeloftlogo {
+  width:90px;
+  a
 }
