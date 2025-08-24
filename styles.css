@@ -133,17 +133,17 @@ section {
 
 .infostart
 {
-   font-size: 20;
+   font-size: 30px;
    font-weight: bolder;
 
 }
 
 .infoslutt {
   
-  padding-left: 20px;
-  font-size: 20;
+  padding-left: 120px;
+  font-size: 30px;
   font-weight: normal;
-  font-style: italic;
+  font-style:normal;
 }
 
 .infosamlet {
