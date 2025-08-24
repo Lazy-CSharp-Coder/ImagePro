@@ -207,11 +207,16 @@ footer {
 
 .kodeloftlogo {
   width:90px;
-  padding:32px;
+  padding:28px;
 }
 
+.kreditasjonfooter {
+  color:rgb(220,220,220);
+  margin:5px;
+}
 .emailandgithub
 {
+
    display: flex;
    gap:20px;
    padding-right: 50px;
