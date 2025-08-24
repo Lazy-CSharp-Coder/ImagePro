@@ -64,6 +64,7 @@ header {
 .imageprologo {
   width : 130px;
   padding-right:25px;
+  padding-left: 200px;
 }
 
 .menydiv {
@@ -143,19 +144,20 @@ section {
 
 .imageprobilde {
   width: 400px;
+  align-self: center;
 }
 
 .infostart
 {
-   font-size: 25px;
+   font-size: 20px;
    font-weight: bolder;
 
 }
 
 .infoslutt {
   
-  padding-left: 120px;
-  font-size: 25px;
+  padding-left: 50px;
+  font-size: 20px;
   font-weight: normal;
   font-style:normal;
 }
