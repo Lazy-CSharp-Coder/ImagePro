@@ -196,7 +196,7 @@ section {
 
 footer {
   display: flex;
-  justify-content: center; 
+  justify-content: space-between;
   align-items: center;
   font-family: "Source Sans 3";
   color:white;
@@ -207,5 +207,6 @@ footer {
 
 .kodeloftlogo {
   width:90px;
+  padding:32px;
   a
 }
