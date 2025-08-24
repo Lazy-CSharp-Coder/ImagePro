@@ -208,5 +208,12 @@ footer {
 .kodeloftlogo {
   width:90px;
   padding:32px;
-  a
 }
+
+.emailandgithub
+{
+   display: flex;
+   gap:20px;
+   padding-right: 50px;
+}
+
