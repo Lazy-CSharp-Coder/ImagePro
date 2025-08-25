@@ -238,8 +238,9 @@ footer {
 .imgpro {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+  margin-left:150px;
+  align-items: left;
 }
 
 
