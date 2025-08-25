@@ -75,9 +75,58 @@
         <h2>Kravspesifikasjon</h2>
         <h3>Lesing/Skriving av filer</h3>
         <p class="standard">
-                
-
+            For å kunne manipulere og konvertere bitmap-filer, trengs det en hel del decodere og encodere for de
+            forskjellige formatene. Etter å ha programmert en del av disse encoderene og decoderene har jeg kunnet skrive en
+            spesifikasjon av hva som kommer til å bli støttet for decoding og encoding. Jeg tar også med begrensninger som
+            formatet har (ikke alle kan lagre f.eks. 24 bits bitmaps) og litt om pakke- og lagringsmetodene som blir brukt.
+            Hva som har blitt støttet har vært svært avhengig av hva jeg har tilgjengelig av dokumentasjon om de
+            forskjellige formatene og hvilke typer bitmaps som vanligvis lagres etter den støttede spesifikasjonen.
         </p>
+        <article id="bmp">
+          <h3> BMP, DIB, RLE - MaksBits : 24.</h3>
+                <p>
+                Disse tre formatene er så og si det samme formatet. BMP står for Bitmap og BMP-filer følger Windows eller OS/2's
+                Device Independent Bitmap spesifikasjon. DIB står rett og slett for Device Independent Bitmap og RLE står for
+                n Length Encoding. RLE filene er pakket, enten med RLE-4 eller RLE-8. BMP filene og DIB filene kan også være
+                pakket med samme metode (det er det samme formatet, bare med annen betegnelse). RLE-4 står for Run Length
+                Encoding 4 bits og RLE-8 står for Run Length Encoding 8-bits. Pakking av 1-bits og 24-bits filer i dette formatet
+                forekommer ikke. BMP ukomprimert støtter 1, 4, 8 og 24 bits bitmaps, mens BMP komprimert støtter 4 og 8 bits
+                bitmaps.
+                </p>
+            <h4>Lesing : </h4>
+            <p>
+             Programmet vil lese alle filer som følger Windows eller OS/2's Device Indepentent Bitmap spesifikasjonen, også
+             filer pakket med RLE-4 og RLE-8.
+            </p>
+            <h4> Skriving : </h4>
+                <p>
+                Programmet kan skrive bitmaps i enten BMP, DIB, RLE formatet, hvor av filene kan pakkes med RLE-4 eller RLE-8,
+                eller ikke pakkes i det hele tatt (dette gjelder ikke for RLE filer). Programmet vil skrive disse filene etter
+                Windows Device Independent Bitmap spesifikasjon.
+                </p>
+        </article>
+        <article id="gif">
+            <h3>GIF - MaksBits : 8 </h3>
+            <p>
+                GIF er CompuServe's eget filformat og står for graphics interchange format. Det finnes i dag 2 versjoner
+                av GIF, nemlig 87a og 89a. 89a er en utvidelse av 87a og kan inneholde animasjoner, samt flere bitmaps
+                og tillegsinformasjon. GIF bruker en svært effektiv pakkemetode kalt LZW (Lempel-Ziv & Welch). Begge
+                formatene kan være interlaced eller non-interlaced. GIF støtter 1, 4 og 8 bits bitmaps.
+            </p>
+            <h4>Lesing : </h4>
+
+            <p>
+                Programmet vil lese alle versjoner av GIF, både interlaced og non-interlaced. Hvis gif-filen inneholder
+                tilleggsinformasjonblokker (såkalte extension blocks), vil disse bli hoppet over og hvis en fil inneholder
+                flere en ett bilde, vil kun det første bildet bli lest.
+            </p>
+            <h4> Skriving : </h4>
+            <p> 
+                Programmet vil kunne skrive 1, 4 og 8 bits bitmap ut i GIF87a formatet, non-interlaced.. Noe annet ville
+                vært unødvendig, siden de fleste programmer som støtter GIF, støtter denne spesifikasjonen.
+            </p>
+
+        </article>
       </section>
       <section id="produkt">
         <h2>underoverskrif seksjon 3</h2>
