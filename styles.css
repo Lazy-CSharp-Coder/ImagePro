@@ -123,8 +123,10 @@ main{
 }
 
 section {
+  
  
   font-family: "Source Sans 3";
+  
   /*
  display: flex; /* display: flex - må være med for at flex skal fungere  
  flex-grow: 1; 
