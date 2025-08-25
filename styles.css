@@ -243,4 +243,7 @@ footer {
   align-items: left;
 }
 
+.ulformat {
+  list-style:circle;
+}
 
