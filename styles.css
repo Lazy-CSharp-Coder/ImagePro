@@ -243,6 +243,14 @@ footer {
   align-items: left;
 }
 
+.imgprosec {
+  display: flex;
+  flex-direction: column;
+  
+  margin-left:150px;
+  align-items: left;
+}
+
 .ulformat {
   list-style:disc;
 }
