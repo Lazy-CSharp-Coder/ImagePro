@@ -227,5 +227,9 @@ footer {
 .sidenavbar
 {
   background-color: #347e84;  
-
+  position:sticky;
+  align-self: self-start;
+  width: max-content;
+  height: 100vh;
+  position:fixed;
 }
