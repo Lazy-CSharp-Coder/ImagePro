@@ -226,10 +226,20 @@ footer {
 
 .sidenavbar
 {
-  background-color: #347e84;  
+  background-color: rgba(51, 123, 130, 1);  
   position:sticky;
   align-self: self-start;
   width: max-content;
   height: 100vh;
   position:fixed;
+
 }
+
+.imgpro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+

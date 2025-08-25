@@ -67,7 +67,7 @@
          </li> -->
          <li><a href="#imagepro"> Generellt</a></li>
          <li><a href="#krav"> Kravspesifikasjon</a></li>
-         <li><a href="#klassestruktur"> Klassestruktur</a></li>
+       
          
            <ul>
               <li> <a href="#bmp"> BMP Microsoft</a> </li>
@@ -81,14 +81,18 @@
               <li> <a href="#tiff"> TIFF Aduls/Microsoft</a> </li>
               <li> <a href="#wpg"> WPG Word Perfect</a> </li>
            </ul>
-         </li>
+         
+           <li><a href="#klassestruktur"> Klassestruktur</a></li>
+           <li><a href="#dataflyt"> Dataflyt</a> </li>
+           <li><a href="#fargehandtering"> Fargehåndtering</a> </li>
+           
            
         </ul>
       </nav>
-     <section id="imagepro" class="imageprosection">
-      <!-- Hero / Main / Home -->
+     <section id="imagepro" class="imgpro">
+
       <h2>Generellt om oppgaven</h2>
-      <!-- <img class="imageprobilde" src="Images/imageprosv.png" alt="fant ikke imagepro bilde"> -->
+ 
       <p class="standard">
           Programmet Bitmap Viewer er et billedviser/behandler som skal kunne lese, vise, manipulere
           og konvertere mange typer bitmap-filer. Prosjektoppgaven skal lages i Borland C++ 4.0 med bruk
@@ -97,7 +101,7 @@
       </p>>
      </section>>
      
-          <section id="krav">
+        <section id="krav" class="imgpro">
         <h2>Kravspesifikasjon</h2>
         <h3>Lesing/Skriving av filer</h3>
         <p class="standard">
@@ -109,7 +113,7 @@
             forskjellige formatene og hvilke typer bitmaps som vanligvis lagres etter den støttede spesifikasjonen.
         </p>
         
-        <article id="bmp">
+        <article id="bmp" class="imgpro">
           <h3> BMP, DIB, RLE - MaksBits : 24.</h3>
               <p class="standard">
               Disse tre formatene er så og si det samme formatet. BMP står for Bitmap og BMP-filer følger Windows eller OS/2's
@@ -132,7 +136,7 @@
               Windows Device Independent Bitmap spesifikasjon.
               </p>
         </article>
-        <article id="gif">
+        <article id="gif" class="imgpro">
             <h3>GIF - MaksBits : 8 </h3>
             <p class="standard">
               GIF er CompuServe's eget filformat og står for graphics interchange format. Det finnes i dag 2 versjoner
@@ -154,7 +158,7 @@
            </p>
 
         </article>
-        <article id="img">
+        <article id="img" class="imgpro">
             <h3>IMG - MaksBits : 8</h3>
             <p class="standard"> 
               IMG formatet er mest assosiert med programmer fra Digital Research og kom som en erstatning for MacPaint
@@ -174,7 +178,7 @@
             </p>
 
           </article>
-          <article id="lbm">
+          <article id="lbm" class="imgpro">
             <h3>LBM - MaksBits : 8</h3>
             <p class="standard"> 
               IFF og LBM formatet kommer opprinnelig fra Amiga, og var deres standard for bitmap-filer. En LBM filer
@@ -199,7 +203,7 @@
               Programmet vil skrive 1, 4 og 8 bits bitmaps i IFF/LBM formatet, pakket.
             </p>
           </article>
-          <article id="mac">
+          <article id="mac" class="imgpro">
             <h3>MAC - MaksBits : 1  </h3>
             <p class="standard"> 
               MacPaint formatet kommer opprinnelig fra Apple Macintosh og er idag et svært lite brukt format. Det
@@ -222,7 +226,7 @@
               header.
             </p>
           </article>
-          <article id="msp">
+          <article id="msp" class="imgpro">
           </a>
           <h3>MSP - MaksBits : 1</h3>
           <p class="standard"> 
@@ -242,7 +246,7 @@
             </p>
      
           </article>
-          <article id="pcx">
+          <article id="pcx" class="imgpro">
             <h3>PCX - MaksBits : 24</h2>
               <p class="standard"> 
               PCX formatet ble laget i forbindelse med Z-Soft's PC Paintbrush. PCX formatet støtter i dag 1, 4, 8 og
@@ -256,10 +260,10 @@
             <p class="standard"> 
                 Programmet vil kunne lese PCX-filer med 1, 4, 8 og 24 bits bitmaps, alle versjoner støttet. 
               </p>
-            <h4> kriving :</h4>
+            <h4> Skriving :</h4>
               <p> Programmet kan skrive alle typer bitmaps (1, 4, 8 og 24 bits) ut i PCX filformat, versjon 5. </p>
           </article>
-          <article id="tga">
+          <article id="tga" class="imgpro">
             <h3>TGA - MaksBits : 32 </h3>
             <p class="standard"> 
                 TGA formatet oppstod ved utgivelsen av The Truevision Targa video kortet, og formatet støtter bilder av
@@ -278,7 +282,7 @@
             </p>
 
           </article>
-          <article id="tiff">
+          <article id="tiff" class="imgpro">
             <h3>TIFF - MaksBits : 24 </h3>
             <p class="standard"> 
             TIFF formatet står for Tagged Image File Format og var en spesifikasjon laget av Aduls og Microsoft som
@@ -300,7 +304,7 @@
             Macintosh PackBits Run-Length Encoding.
           </p>
        </article>
-       <article id="wpg">
+       <article id="wpg" class="imgpro">
         <h3>WPG - MaksBits : 8</h3>
         <p class="standard"> 
           WPG-formatet ble laget i forbindelse utgivelsen av Word Perfect, og var et nytt format som støttet både
@@ -316,7 +320,7 @@
            </p>
        </article>
       </section>
-      <section id="klassestruktur">
+      <section id="klassestruktur" class="imgpro">
         <h2>Klassestruktur for Encodere og Decodere</h2>
       </section> 
     </main>
