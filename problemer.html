@@ -96,7 +96,7 @@
               I forbindelse med Windows BMP format, finnes det en versjon hvor hver byte representere 2
               farger i en palette på 16 farger. Jeg skulle da pakke dette formatet med RLE kompresjon, og
               fant ingen dokumentasjon på hvordan det ble gjort. En byte består av 2 deler på 4-bits, også
-              kalt en “nibble”. En byte består da av en High Order Nibble (de fire første bits) og Low Order
+              kalt en “nibble”. En byte består da av en High Order Nibble (de første 4 bits) og Low Order
               Nibble (de siste 4 bits). Jeg valgte da å pakke hver High Order Nibble og hver Low Order Nibble
               med neste nibble av samme sort. Her overkompliserte jeg det. Fant ut senere at man skal kun
               pakke hver byte, hvis neste byte inneholder de to samme fargene. Om dette fungerte skikkelig,
