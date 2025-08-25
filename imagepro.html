@@ -333,6 +333,7 @@
         til disse klassene (se diagram).
 
       </p>
+      <img src="Images/Klassestruktur1.png" alt="fant ikke klassestruktur image"/>
 
       <p class="standard">
         Decoder og encoder baseklassene vil inneholde en del "null-virtual" funksjoner. Disse funksjonene er basisen for å
@@ -342,21 +343,20 @@
       </p>
 
       <p class="standard">
-        Eks.
-      void FileOpen(Decoder& GraphicFile)
-      void FileSave(Encoder& GraphicFile).
+          void FileOpen(Decoder& GraphicFile). <br>
+          void FileSave(Encoder& GraphicFile). <br>
 
-      Som parameter til disse funksjonene sendes den valgte decoder/encoder. Eks.
+        Som parameter til disse funksjonene sendes den valgte decoder/encoder. Eks. <br> <br>
 
-      void SelectFile()
-      {
-      ..........
-
-      TgaRead RTGA; // Opprette instance av klasse
-
-      FileOpen(RTGA); // Sende som parameter.
-      ..........
-      }
+        void SelectFile() <br>
+        { <br>
+          .......... <br>
+          <br>
+          TgaRead RTGA; // Opprette instance av klasse <br>
+          <br>
+          FileOpen(RTGA); // Sende som parameter. <br>
+          ..........<br>
+        } <br>
       </p>
       <h4> Lagring av fildata i minne.</h4>>
 
