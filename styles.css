@@ -87,11 +87,11 @@ ul {
   display: flex;
   flex-direction: column;
   list-style-type:circle;
-  padding-left:0;
 }
 
 li {
-  color:white;
+  display: flex;
+  padding:5px;
   
 }
 
@@ -118,9 +118,8 @@ main{
  
   flex-grow: 1;
   background-image: url("Images/imageProWhiteBackgroundop60.png");
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-
 
 }
 
@@ -128,19 +127,14 @@ section {
   
  
   font-family: "Source Sans 3";
-  
-  /*
- display: flex; /* display: flex - må være med for at flex skal fungere  
- flex-grow: 1; 
- */
-}
+
+  }
 
 .hero {
 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .imageprobilde {
@@ -238,13 +232,23 @@ footer {
   padding-right:30px;
 
 }
+.imgprosection {
+  display: flex;
+  flex-direction: column;
+
+  margin-left:275px;
+  align-items: left;display: flex;
+  flex-direction: column;
+
+}
+
 
 .imgpro {
   display: flex;
   flex-direction: column;
 
-  margin-left:150px;
-  align-items: flex-start;
+  margin-left:25px;
+  align-items: left;
 }
 /* 
 .imgprosec {
@@ -256,13 +260,9 @@ footer {
 } */
 
 .ulformat {
-  list-style-type: disc;
-  color:black;
-  padding-left:40px;
+  list-style:disc;
 }
 
-.encdecimage {
-  width:700px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+.generellt {
+   align-items: left;
 }
