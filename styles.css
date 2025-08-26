@@ -259,3 +259,8 @@ footer {
   list-style:disc;
 }
 
+.encdecimage {
+  width:700px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
