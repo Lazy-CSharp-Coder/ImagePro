@@ -91,8 +91,7 @@ ul {
 }
 
 li {
-  display: flex;
-  padding:5px;
+ 
   
 }
 
@@ -245,7 +244,7 @@ footer {
   flex-direction: column;
 
   margin-left:150px;
-  align-items: left;
+  align-items: flex-start;
 }
 /* 
 .imgprosec {
@@ -257,7 +256,9 @@ footer {
 } */
 
 .ulformat {
-  list-style:disc;
+  list-style-type: disc;
+  color:black;
+  padding-left:40px;
 }
 
 .encdecimage {
