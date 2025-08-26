@@ -118,7 +118,7 @@ main{
  
   flex-grow: 1;
   background-image: url("Images/imageProWhiteBackgroundop60.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
 
 }
@@ -139,6 +139,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .imageprobilde {
