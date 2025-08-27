@@ -264,5 +264,7 @@ footer {
 }
 
 .generellt {
-   align-items: left;
+  display: flex; 
+  align-items: left;
+
 }
