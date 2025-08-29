@@ -270,9 +270,11 @@ footer {
   display: flex;
   flex-direction: row;
   gap:50px;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
   margin-top:50px;
+  scroll-margin-top: 190px;
+
 }
 /* 
 .imgprosec {
@@ -295,10 +297,10 @@ footer {
 
 .imgfilformat {
   width:500px;
+  padding-left: 50px;
 }
 
 .textfileformatdiv
 {
    width:50%;
-}
 }
