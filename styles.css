@@ -222,6 +222,16 @@ footer {
    background-color: rgba(255,255,255,1);
    
 }
+
+.standardfilformat {
+
+  color:black;
+  text-align: left;
+  padding:0;
+  margin:8px;
+  background-color: rgba(255,255,255,1);
+
+}
 .oldpcimg {
   width:35%;
   padding-top:20px;
@@ -254,7 +264,7 @@ footer {
 
 .imgpro {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 
  
   justify-content: right;
