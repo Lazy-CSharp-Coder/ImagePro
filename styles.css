@@ -85,6 +85,10 @@ h2 {
 h3 {
     font-family: "Source Sans 3";
     font-size:18;
+   
+    margin-top:0;
+    margin-bottom: 5px;
+
 }
 
 h4 {
@@ -265,8 +269,7 @@ footer {
 .imgpro {
   display: flex;
   flex-direction: row;
-
- 
+  gap:50px;
   justify-content: right;
   align-items: center;
 }
