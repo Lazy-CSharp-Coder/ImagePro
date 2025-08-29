@@ -254,10 +254,10 @@ footer {
 
 .imgpro {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
-  margin-left:25px;
-  justify-content:flex-start;
+ 
+  justify-content: right;
   align-items: center;
 }
 /* 
