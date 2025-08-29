@@ -271,7 +271,7 @@ footer {
   display: flex;
   flex-direction: row;
   gap:50px;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding-top:50px;
   padding-left: 15px;
@@ -297,10 +297,19 @@ footer {
 
 }
 
-.imgfilformat {
+.imgfileformatright {
   width:510px;
-  padding-right: 90px;
+  padding-right: 120px;
+
 }
+
+.imgfileformatleft {
+
+  width:510px;
+  padding-left: 60px;
+  padding-right: 20px;
+}
+
 .textfileformatdiv
 {
    /* display: flex;
