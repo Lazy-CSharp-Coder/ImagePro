@@ -77,10 +77,19 @@ h1 {
   
 }
 h2 {
-   font-size:30px;
+   font-size:24px;
    font-weight: bolder;
    text-align: center;
 
+}
+h3 {
+    font-family: "Source Sans 3";
+    font-size:18;
+}
+
+h4 {
+    font-size:16;
+    font-style: italic;
 }
 
 ul {
@@ -245,10 +254,11 @@ footer {
 
 .imgpro {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 
   margin-left:25px;
-  align-items: left;
+  justify-content: space-between;
+  align-items: center;
 }
 /* 
 .imgprosec {
@@ -267,4 +277,8 @@ footer {
   display: flex; 
   align-items: left;
 
+}
+
+.imgfilformat {
+  width:300;
 }
