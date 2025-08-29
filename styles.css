@@ -232,7 +232,8 @@ footer {
   color:black;
   text-align: left;
   padding:0;
-  margin:8px;
+  margin:0;
+  width: 70%;
   background-color: rgba(255,255,255,1);
 
 }
@@ -296,11 +297,16 @@ footer {
 }
 
 .imgfilformat {
-  width:500px;
-  padding-left: 50px;
+  width:510px;
+  padding-right: 90px;
 }
-
 .textfileformatdiv
 {
-   width:50%;
+   display: flex;
+   flex-direction: column;
+   justify-content:flex-end;
+   align-items:center;
 }
+
+
+
