@@ -126,8 +126,7 @@
             n Length Encoding. RLE filene er pakket, enten med RLE-4 eller RLE-8. BMP filene og DIB filene kan også være
             pakket med samme metode (det er det samme formatet, bare med annen betegnelse). RLE-4 står for Run Length
             Encoding 4 bits og RLE-8 står for Run Length Encoding 8-bits. Pakking av 1-bits og 24-bits filer i dette
-            formatet
-            forekommer ikke. BMP ukomprimert støtter 1, 4, 8 og 24 bits bitmaps, mens BMP komprimert støtter 4 og 8 bits
+            formatet forekommer ikke. BMP ukomprimert støtter 1, 4, 8 og 24 bits bitmaps, mens BMP komprimert støtter 4 og 8 bits
             bitmaps.
           </p>
           <h4>Lesing : </h4>
@@ -166,7 +165,6 @@
             Programmet vil kunne skrive 1, 4 og 8 bits bitmap ut i GIF87a formatet, non-interlaced.. Noe annet ville
             vært unødvendig, siden de fleste programmer som støtter GIF, støtter denne spesifikasjonen.
           </p>
-
         </div>
       </article>
       <article id="img" class="imgpro">
@@ -192,29 +190,31 @@
         <img class="imgfileformatleft" src="Images/dragons.png"/>
       </article>
       <article id="lbm" class="imgpro">
-        <h3>LBM - MaksBits : 8</h3>
-        <p class="standardfilformat">
-          IFF og LBM formatet kommer opprinnelig fra Amiga, og var deres standardfilformat for bitmap-filer. En LBM filer
-          er svært fleksible og kan inneholde ikke bare bitmaps, men også musikk, animasjoner ect. LBM filer som
-          inneholder bitmaps kan enten være ukomprimerte eller pakket med en egen form for Run-Length Encoding.
-          Formatet støtter 1, 4 og 8 bits bitmaps. Jeg har også lest et sted at den støtter 24-bits bitmaps, men
-          der finnes i såfall svært få slike LBM filer i sirkulasjon (har ikke funnet et program på PC'en som
-          genererer LBM-filer med 24 bits/pixels.). 1 bits bitmaps er lagret som 1 bit per pixel, 1 plane. 4 bits
-          er lagret som 1 bit per pixel, 4 color planes og 8-bits bitmap kan enten være lagret som 1 bit per
-          pixel, 8 color planes eller som 8 bits per pixel, 1 color plane. Det finnes også variasjoner av IFF/LBM
-          filer som bruker et metode kalt HAM, som står for hold and modify. Denne variasjonen er brukt i
-          forbindelse med video-kortet på Commondore Amiga og filer som har en slik variasjonen forekommer sjelden i
-          PC-miljøet.
-        </p>
-        <h4> Lesing : </h4>
-        <p class="standardfilformat">
-          Programmet vil lese 1, 4 og 8 bits IFF/LBM filer, alle color planes støttet. Den vil lese både
-          komprimerte og ukomprimerte filer. Filer som er lagret med HAM-metoden vil ikke bli støttet.
-        </p>
-        <h4>Skriving :</h4>
-        <p class="standardfilformat">
-          Programmet vil skrive 1, 4 og 8 bits bitmaps i IFF/LBM formatet, pakket.
-        </p>
+        <div class="textfileformatdiv">
+          <h3>LBM - MaksBits : 8</h3>
+          <p class="standardfilformat">
+            IFF og LBM formatet kommer opprinnelig fra Amiga, og var deres standardfilformat for bitmap-filer. En LBM filer
+            er svært fleksible og kan inneholde ikke bare bitmaps, men også musikk, animasjoner ect. LBM filer som
+            inneholder bitmaps kan enten være ukomprimerte eller pakket med en egen form for Run-Length Encoding.
+            Formatet støtter 1, 4 og 8 bits bitmaps. Jeg har også lest et sted at den støtter 24-bits bitmaps, men
+            der finnes i såfall svært få slike LBM filer i sirkulasjon (har ikke funnet et program på PC'en som
+            genererer LBM-filer med 24 bits/pixels.). 1 bits bitmaps er lagret som 1 bit per pixel, 1 plane. 4 bits
+            er lagret som 1 bit per pixel, 4 color planes og 8-bits bitmap kan enten være lagret som 1 bit per
+            pixel, 8 color planes eller som 8 bits per pixel, 1 color plane. Det finnes også variasjoner av IFF/LBM
+            filer som bruker et metode kalt HAM, som står for hold and modify. Denne variasjonen er brukt i
+            forbindelse med video-kortet på Commondore Amiga og filer som har en slik variasjonen forekommer sjelden i
+            PC-miljøet.
+          </p>
+          <h4> Lesing : </h4>
+          <p class="standardfilformat">
+            Programmet vil lese 1, 4 og 8 bits IFF/LBM filer, alle color planes støttet. Den vil lese både
+            komprimerte og ukomprimerte filer. Filer som er lagret med HAM-metoden vil ikke bli støttet.
+          </p>
+          <h4>Skriving :</h4>
+          <p class="standardfilformat">
+            Programmet vil skrive 1, 4 og 8 bits bitmaps i IFF/LBM formatet, pakket.
+          </p>
+        </div>
       </article>
       <article id="mac" class="imgpro">
        <div class="textfileformatdiv">
@@ -232,9 +232,7 @@
         <p class="standardfilformat">
           Programmet støtter alle typer MacPaint-filer med eller uten en MacBinary header.
         </p>
-
         <h4>Skriving : </h4>
-
         <p class="standardfilformat">
           Programmet kan skrive 1-bits bitmaps av størrelse 576 x 720 i MacPaint formatet, med en MacBinary
           header.
@@ -242,7 +240,6 @@
        </div>
       </article>
       <article id="msp" class="imgpro">
-        
         <div class="standardfilformat">
           <h3>MSP - MaksBits : 1</h3>
           <p class="standardfilformat">
@@ -282,6 +279,7 @@
             <h4> Skriving :</h4>
             <p> Programmet kan skrive alle typer bitmaps (1, 4, 8 og 24 bits) ut i PCX filformat, versjon 5. </p>
         </article>
+        
         <article id="tga" class="imgpro">
           <h3>TGA - MaksBits : 32 </h3>
           <p class="standardfilformat">
