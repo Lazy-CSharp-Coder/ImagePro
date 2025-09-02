@@ -218,6 +218,7 @@ footer {
 }
 
 .standard {
+  
    color:black;
    text-align: left;
    width:70%;
@@ -244,6 +245,7 @@ footer {
   height: 100vh;
   position:fixed;
   padding-right:30px;
+
 
 }
 .imgprosection {
@@ -308,7 +310,7 @@ footer {
 
 .imgfileformatleft {
 
-  width:1510px;
+  width:510px;
  
 }
 
