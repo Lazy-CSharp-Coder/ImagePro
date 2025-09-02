@@ -147,47 +147,49 @@
       <article id="gif" class="imgpro">
         <img class="imgfileformatleft" src="Images/parrot.png" alt="fant ikke bilde"/>
         <div class="textfileformatdiv">
-           <h3>GIF - MaksBits : 8 </h3>
-        <p class="standardfilformat">
-          GIF er CompuServe's eget filformat og står for graphics interchange format. Det finnes i dag 2 versjoner
-          av GIF, nemlig 87a og 89a. 89a er en utvidelse av 87a og kan inneholde animasjoner, samt flere bitmaps
-          og tillegsinformasjon. GIF bruker en svært effektiv pakkemetode kalt LZW (Lempel-Ziv & Welch). Begge
-          formatene kan være interlaced eller non-interlaced. GIF støtter 1, 4 og 8 bits bitmaps.
-        </p>
-        <h4>Lesing : </h4>
+          <h3>GIF - MaksBits : 8 </h3>
+          <p class="standardfilformat">
+            GIF er CompuServe's eget filformat og står for graphics interchange format. Det finnes i dag 2 versjoner
+            av GIF, nemlig 87a og 89a. 89a er en utvidelse av 87a og kan inneholde animasjoner, samt flere bitmaps
+            og tillegsinformasjon. GIF bruker en svært effektiv pakkemetode kalt LZW (Lempel-Ziv & Welch). Begge
+            formatene kan være interlaced eller non-interlaced. GIF støtter 1, 4 og 8 bits bitmaps.
+          </p>
+          <h4>Lesing : </h4>
 
-        <p class="standardfilformat">
-          Programmet vil lese alle versjoner av GIF, både interlaced og non-interlaced. Hvis gif-filen inneholder
-          tilleggsinformasjonblokker (såkalte extension blocks), vil disse bli hoppet over og hvis en fil inneholder
-          flere en ett bilde, vil kun det første bildet bli lest.
-        </p>
-        <h4> Skriving : </h4>
-        <p class="standardfilformat">
-          Programmet vil kunne skrive 1, 4 og 8 bits bitmap ut i GIF87a formatet, non-interlaced.. Noe annet ville
-          vært unødvendig, siden de fleste programmer som støtter GIF, støtter denne spesifikasjonen.
-        </p>
+          <p class="standardfilformat">
+            Programmet vil lese alle versjoner av GIF, både interlaced og non-interlaced. Hvis gif-filen inneholder
+            tilleggsinformasjonblokker (såkalte extension blocks), vil disse bli hoppet over og hvis en fil inneholder
+            flere en ett bilde, vil kun det første bildet bli lest.
+          </p>
+          <h4> Skriving : </h4>
+          <p class="standardfilformat">
+            Programmet vil kunne skrive 1, 4 og 8 bits bitmap ut i GIF87a formatet, non-interlaced.. Noe annet ville
+            vært unødvendig, siden de fleste programmer som støtter GIF, støtter denne spesifikasjonen.
+          </p>
 
         </div>
       </article>
       <article id="img" class="imgpro">
-        <h3>IMG - MaksBits : 8</h3>
-        <p class="standardfilformat">
-          IMG formatet er mest assosiert med programmer fra Digital Research og kom som en erstatning for MacPaint
-          formatet. Formatets nye spesifikasjon støtter idag både svart-hvitt, gråskala og farge-bilder. IMG
-          formatet er derimot mest brukt til svart-hvitt bilder (1 bits). IMG bruker en spesiell form for
-          run-length encoding for pakking av bitmaps.
-        </p>
-        <h4> Lesing : </h4>
-        <p class="standardfilformat">
-          Programmet vil kun lese 1-bits IMG filer. Dette kommer av at det er svært få gråskala og farge IMG bilder i
-          sirkulasjon og av at jeg mangler dokumentasjon på hvordan disse er lagret.
-        </p>
+        <div class="textfileformatdiv">
+          <h3>IMG - MaksBits : 8</h3>
+          <p class="standardfilformat">
+            IMG formatet er mest assosiert med programmer fra Digital Research og kom som en erstatning for MacPaint
+            formatet. Formatets nye spesifikasjon støtter idag både svart-hvitt, gråskala og farge-bilder. IMG
+            formatet er derimot mest brukt til svart-hvitt bilder (1 bits). IMG bruker en spesiell form for
+            run-length encoding for pakking av bitmaps.
+          </p>
+          <h4> Lesing : </h4>
+          <p class="standardfilformat">
+            Programmet vil kun lese 1-bits IMG filer. Dette kommer av at det er svært få gråskala og farge IMG bilder i
+            sirkulasjon og av at jeg mangler dokumentasjon på hvordan disse er lagret.
+          </p>
 
-        <h4>Skriving :</h4>
-        <p class="standardfilformat">
-          Programmet vil kunne lagre alle 1 bits bitmaps i IMG-formatet.
-        </p>
-
+          <h4>Skriving :</h4>
+          <p class="standardfilformat">
+            Programmet vil kunne lagre alle 1 bits bitmaps i IMG-formatet.
+          </p>
+        </div>
+        <img src="Images/dragons.png"/>
       </article>
       <article id="lbm" class="imgpro">
         <h3>LBM - MaksBits : 8</h3>
