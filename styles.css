@@ -261,11 +261,9 @@ footer {
 {
   background-color: rgba(51, 123, 130, 1);  
   position:sticky;
-  align-self: self-start;
-  width: max-content;
+   width: 260px;;
   height: 100vh;
   position:fixed;
-  padding-right:30px;
 
 }
 .imgprosection {
