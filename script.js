@@ -1,22 +1,22 @@
-let ttHasBeenClicked = false;
+let fftHasBeenClicked = false;
 
 function ffMenuToggle() 
 {
     console.log("er inne i funksjon");
     const navListElement = document.querySelector(".ulFileFormat");
-    if(!ttHasBeenClicked)
+    if(!ffHasBeenClicked)
     {   
         navListElement.classList.remove(hidden);
         navListElement.classList.add(show);
-        ttHasBeenClicked = true;
+        ffHasBeenClicked = true;
     }
     else
     {
         navListElement.classList.remove(show);
         navListElement.classList.add(hidden);
-        ttHasBeenClicked = false;
+        ffHasBeenClicked = false;
     }
 
 }
 
-globalThis.ttMenuToggle = ttMenuToggle;
+globalThis.ffMenuToggle = ffMenuToggle;

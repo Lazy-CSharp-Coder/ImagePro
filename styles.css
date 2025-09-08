@@ -243,6 +243,11 @@ footer {
 }
 
 /* klasser for imageprov1 */
+
+.ulFileFormat {
+  list-style:disc;
+}
+
 .hidden {
 
   display: none;
@@ -253,7 +258,6 @@ footer {
   flex-direction: column;
 
 }
-
 
 .sidenavbar
 {
@@ -297,9 +301,7 @@ footer {
   align-items: left;
 } */
 
-.ulFileFormat {
-  list-style:disc;
-}
+
 
 .generellt {
   display: flex; 
