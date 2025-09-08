@@ -1,6 +1,6 @@
 let menyHasBeenClicked = false;
 
-function ffMenuToggle() 
+function fileFormatMenuToggle() 
 {
     console.log("er inne i funksjon");
     const navListElement = document.querySelector(".ulFileFormat");
@@ -19,4 +19,4 @@ function ffMenuToggle()
 
 }
 
-globalThis.ffMenuToggle = ffMenuToggle;
+globalThis.fileFormatMenuToggle = fileFormatMenuToggle;
