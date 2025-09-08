@@ -13,6 +13,7 @@ function ttMenuToggle()
     {
         navListElement.classList.remove(show);
         navListElement.classList.add(hidden);
+        ttHasBeenClicked = false;
     }
 
 }

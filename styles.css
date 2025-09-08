@@ -63,18 +63,6 @@ header {
 
 }
 
-.hidden {
-
-  display: none;
-}
-
-.show {
-  display: flex;
-  flex-direction: column;
-
-}
-
-
 .menydiv {
 
   display: flex;
@@ -255,6 +243,17 @@ footer {
 }
 
 /* klasser for imageprov1 */
+.hidden {
+
+  display: none;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+
+}
+
 
 .sidenavbar
 {
@@ -298,7 +297,7 @@ footer {
   align-items: left;
 } */
 
-.ulformat {
+.ulFileFormat {
   list-style:disc;
 }
 
