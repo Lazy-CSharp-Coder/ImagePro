@@ -1,7 +1,8 @@
 let ttHasBeenClicked = false;
 
-function ttMenuToggle() 
+function ffMenuToggle() 
 {
+    console.log("er inne i funksjon");
     const navListElement = document.querySelector(".ulFileFormat");
     if(!ttHasBeenClicked)
     {   
@@ -17,3 +18,5 @@ function ttMenuToggle()
     }
 
 }
+
+globalThis.ttMenuToggle = ttMenuToggle;
