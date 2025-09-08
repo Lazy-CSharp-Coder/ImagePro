@@ -59,10 +59,21 @@ header {
 .imageprologo {
   width : 130px;
   padding-right:25px;
-
-  
+ 
 
 }
+
+.hidden {
+
+  display: none;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+
+}
+
 
 .menydiv {
 
@@ -218,7 +229,6 @@ footer {
 }
 
 .standard {
-  
    color:black;
    text-align: left;
    width:70%;
@@ -228,6 +238,16 @@ footer {
    
 }
 
+.standardfilformat {
+
+  color:black;
+  text-align: left;
+  padding:0;
+  margin:0;
+  width: 80%;
+  background-color: rgba(255,255,255,1);
+
+}
 .oldpcimg {
   width:35%;
   padding-top:20px;
@@ -246,7 +266,6 @@ footer {
   position:fixed;
   padding-right:30px;
 
-
 }
 .imgprosection {
   display: flex;
@@ -255,7 +274,29 @@ footer {
   margin-left:275px;
   align-items: center;
   
+
 }
+
+
+.imgpro {
+  display: flex;
+  flex-direction: row;
+  gap:50px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top:50px;
+  padding-left: 15px;
+  scroll-margin-top: 190px;
+
+}
+/* 
+.imgprosec {
+  display: flex;
+  flex-direction: column;
+  
+  margin-left:150px;
+  align-items: left;
+} */
 
 .ulformat {
   list-style:disc;
@@ -267,16 +308,17 @@ footer {
 
 }
 
+.imgfileformatright {
+  width:510px;
+  padding-right: 120px;
 
-/* klasser for bmp, gif - filformat */
+}
 
-.imgpro {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  scroll-margin-top: 150px;
+.imgfileformatleft {
 
+  width:510px;
+  padding-left: 60px;
+  padding-right: 20px;
 }
 
 .textfileformatdiv
@@ -286,43 +328,6 @@ footer {
    justify-content:space-evenly;
    align-items:center; */
 }
-
-
-.standardfilformat {
-
-  color:black;
-  text-align: left;
-  padding:0;
-  margin:0;
-  background-color: rgba(255,255,255,1);
-
-}
-
-.imgfileformatright {
-  width:510px;
-  
-
-}
-
-.imgfileformatleft {
-
-  width:510px;
- 
-}
-
-/* end klasser filformat */
-
-/* 
-.imgprosec {
-  display: flex;
-  flex-direction: column;
-  
-  margin-left:150px;
-  align-items: left;
-} */
-
-
-
 
 
 
