@@ -8,9 +8,9 @@ function fileFormatMenuToggle()
     {   
 
         navListElement.classList.remove("easeOutMenu");
+        navListElement.classList.add("show")
         navListElement.classList.add("easeInMenu");
-        navListElement.addEventListener("animationend", () => {navListElement.classList.remove("hidden"); 
-                                                               navListElement.classList.add("show")});
+        navListElement.addEventListener("animationend", () => {navListElement.classList.remove("hidden"); });
         menyHasBeenClicked = true;
     }
     else
