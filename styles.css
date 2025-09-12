@@ -272,11 +272,12 @@ footer {
     animation-name: slideInMenu;
     animation-duration: 1s;
     animation-timing-function: ease-in;
+    animation-delay: 0.2s;
     animation-fill-mode: forwards;
     
 }
 
-@keyframes easeInMenu {
+@keyframes slideInMenu {
   0% { transform:translateX(-300);}
   100% {transform:translateX(0)}
   
