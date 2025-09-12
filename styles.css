@@ -278,7 +278,7 @@ footer {
 }
 
 @keyframes slideInMenu {
-  0% { transform:translateX(-120px);}
+  0% { transform:translateX(-300px);}
   100% {transform:translateX(0)}
   
 }
