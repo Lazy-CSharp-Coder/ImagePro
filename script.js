@@ -6,9 +6,10 @@ function fileFormatMenuToggle()
     const navListElement = document.querySelector(".ulFileFormat");
     if(!menyHasBeenClicked)
     {   
+
         navListElement.classList.remove("easeOutMenu");
         navListElement.classList.remove("hidden");
-        // navListElement.classList.add("show");
+        navListElement.classList.add("show");
         navListElement.classList.add("easeInMenu");
         menyHasBeenClicked = true;
     }
@@ -17,7 +18,8 @@ function fileFormatMenuToggle()
         // navListElement.classList.remove("show");
         navListElement.classList.remove("easeInMenu");
         navListElement.classList.add("easeOutMenu");
-        navListElement.addEventListener("animationend", () => {navListElement.classList.add("hidden")});
+        navListElement.addEventListener("animationend", () => {navListElement.classList.remove("show"); 
+                                                               navListElement.classList.add("hidden")});
         menyHasBeenClicked = false;
     }
 
