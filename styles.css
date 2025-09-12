@@ -278,7 +278,7 @@ footer {
 }
 
 @keyframes slideInMenu {
-  0% { transform:translateX(-300px);}
+  0% { transform:translateX(-250px);}
   100% {transform:translateX(0)}
   
 }
@@ -293,7 +293,7 @@ footer {
 
 @keyframes slideOutMenu {
   0% { transform:translateX(0px);}
-  100% {transform:translateX(-300px)}
+  100% {transform:translateX(-250px)}
   
 }
 .imgprosection {
