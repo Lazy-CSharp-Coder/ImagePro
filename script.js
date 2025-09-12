@@ -7,7 +7,7 @@ function fileFormatMenuToggle()
     if(!menyHasBeenClicked)
     {   
         navListElement.classList.remove("hidden");
-        navListElement.classList.add("show");
+        // navListElement.classList.add("show");
         navListElement.classList.add("easeInMenu");
         menyHasBeenClicked = true;
     }
