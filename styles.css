@@ -269,20 +269,33 @@ footer {
 
 .easeInMenu
 {
-    animation-name: slideInMenu;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-    animation-delay: 0.2s;
-    animation-fill-mode: forwards;
+  animation-name: slideInMenu;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+  animation-delay: 0;
+  animation-fill-mode: forwards;
     
 }
 
 @keyframes slideInMenu {
-  0% { transform:translateX(-300px);}
+  0% { transform:translateX(-120px);}
   100% {transform:translateX(0)}
   
 }
 
+.easeOutMenu {
+  animation-name: slideOutMenu;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideOutMenu {
+  0% { transform:translateX(0px);}
+  100% {transform:translateX(-300px)}
+  
+}
 .imgprosection {
   display: flex;
   flex-direction: column;
