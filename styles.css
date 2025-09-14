@@ -260,7 +260,7 @@ footer {
 .sideNavBar
 {
   display:flex;
-  
+
   background-color: rgba(51, 123, 130, 1);  
   position:fixed;
    width: 260px;
@@ -304,7 +304,7 @@ footer {
   display: flex;
   flex-direction: column;
 
-  margin-left:275px;
+
   align-items: center;
   
 
