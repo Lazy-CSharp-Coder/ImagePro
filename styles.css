@@ -259,12 +259,14 @@ footer {
 
 .sideNavBar
 {
+  display:flex;
+  
   background-color: rgba(51, 123, 130, 1);  
-  position:sticky;
+  position:fixed;
    width: 260px;
-  height: 100vh;
+  
   z-index:10;
-  left:0;
+
 
 
 }
