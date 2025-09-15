@@ -312,11 +312,11 @@ footer {
 .articleFileFormat {
   display: flex;
   flex-direction: row;
-  gap:50px;
-  justify-content: space-between;
+
+  justify-content: space-evenly;
   align-items: center;
   padding-top:50px;
-  padding-left: 15px;
+
   scroll-margin-top: 190px;
 
 }
