@@ -298,19 +298,17 @@ footer {
   100% {transform:translateX(-40px)}
   
 }
-.imgprosection {
+.secImagePro {
   display: flex;
   flex-direction: column;
+  padding:275px;
 
-
-  align-items: center;
   
 
 }
 
 .mainImagePro {
-  padding:275px;
-}
+
 
 
 .imgpro {
