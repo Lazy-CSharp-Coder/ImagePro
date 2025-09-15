@@ -130,7 +130,7 @@ main{
  
   flex-grow: 1;
   background-image: url("Images/imageProWhiteBackgroundop60.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
 
 }
@@ -263,11 +263,8 @@ footer {
 
   background-color: rgba(51, 123, 130, 1);  
   position:fixed;
-   width: 260px;
-  
+  width: 260px;
   z-index:10;
-
-
 
 }
 
