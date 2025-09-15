@@ -301,7 +301,8 @@ footer {
 .secImagePro {
   display: flex;
   flex-direction: column;
-  padding:275px;
+  padding-left:275px;
+  align-items: center;
   
 
 }
