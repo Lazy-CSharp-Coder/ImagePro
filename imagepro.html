@@ -342,7 +342,7 @@
         </div>
       </article>
     </section>
-    <section id="klassestruktur" class="articleFileFormat">
+    <section id="klasseStruktur" class="secImagePro">
       <h2>Klassestruktur for Encodere og Decodere</h2>
       <p class="standard">
         For å lage encodere og decodere til alle disse filformatene, vil jeg opprette to abstrakte base klasser, nemlig
@@ -362,7 +362,8 @@
       <p class="standard">
           void FileOpen(Decoder& GraphicFile). <br>
           void FileSave(Encoder& GraphicFile). <br>
-
+      </p>
+      <p class="standard">>
         Som parameter til disse funksjonene sendes den valgte decoder/encoder. Eks. <br> <br>
 
         void SelectFile() <br>
@@ -374,7 +375,8 @@
           FileOpen(RTGA); // Sende som parameter. <br>
           ..........<br>
         } <br>
-      </p>
+        </p>
+      
       <h3> Lagring av fildata i minne.</h3>
 
       <p class="standard">
