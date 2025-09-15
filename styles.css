@@ -221,7 +221,7 @@ footer {
 .standard {
    color:black;
    text-align: left;
-   width:70%;
+   width:50%;
    padding:0;
    margin:8px;
    background-color: rgba(255,255,255,1);
@@ -255,7 +255,9 @@ footer {
   flex-direction: column;
 
 }
-.ulFileFormat {
+.generelt {
+
+  width_: 50%;
 
 }
 
@@ -354,12 +356,13 @@ footer {
  
 }
 
-.textfileformatdiv
+.divTextFileFormat
 {
-    display: flex;
+   display: flex;
    flex-direction: column;
    justify-content:space-evenly;
    align-items:center; 
+   gap:10px;
 }
 
 
