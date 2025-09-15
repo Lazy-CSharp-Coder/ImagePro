@@ -265,6 +265,7 @@ footer {
   position:fixed;
   width: 260px;
   z-index:10;
+  height:100vh;
 
 }
 
@@ -305,6 +306,10 @@ footer {
   align-items: center;
   
 
+}
+
+.mainImagePro {
+  padding:275px;
 }
 
 
