@@ -302,16 +302,11 @@ footer {
   display: flex;
   flex-direction: column;
   padding:275px;
-
   
 
 }
 
-.mainImagePro {
-
-
-
-.imgpro {
+.articleFileFormat {
   display: flex;
   flex-direction: row;
   gap:50px;
