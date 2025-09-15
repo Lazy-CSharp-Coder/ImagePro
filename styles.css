@@ -228,7 +228,7 @@ footer {
    
 }
 
-.standardfilformat {
+.textFileFormat {
 
   color:black;
   text-align: left;
@@ -371,6 +371,7 @@ footer {
 {
    font-weight: bold;
    color:cadetblue;
+   text-align: left;
 }
 
 
