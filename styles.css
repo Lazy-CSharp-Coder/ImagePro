@@ -303,8 +303,8 @@ footer {
 .secImagePro {
   display: flex;
   flex-direction: column;
-  padding-left:275px;
   align-items: center;
+
   
 
 }
@@ -318,6 +318,7 @@ footer {
   padding-top:50px;
 
   scroll-margin-top: 190px;
+  width:50%;
 
 }
 /* 
@@ -347,6 +348,7 @@ footer {
 
 .imgFileFormat {
   width:550px;
+  height:350px;
   margin:0;
   padding:0;
  
